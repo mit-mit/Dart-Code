@@ -414,7 +414,8 @@ function getAnalyzerSettings() {
 		+ config.flutterSdkPath
 		+ config.flutterDaemonLogFile
 		+ config.closingLabels
-		+ config.previewAnalyzeAngularTemplates;
+		+ config.previewAnalyzeAngularTemplates
+		+ config.previewDart2;
 }
 
 export function deactivate(): PromiseLike<void> {
